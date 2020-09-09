@@ -1,0 +1,8 @@
+{% extends 'home.html' %}
+
+{% block content %}
+    <h1>{{ profile.pk }}</h1>
+    <div class="col-md-5 border">
+        <img src="{{ profile.image.url }}" width="500" height="500" alt="image">
+    </div>
+{% endblock %}
